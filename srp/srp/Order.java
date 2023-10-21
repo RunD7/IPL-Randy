@@ -11,10 +11,4 @@ class Order {
     }
     void deleteItem(Item item) {
     }
-    void printOrder() {
-    }
-    void showOrder() {
-    }
-    void getDailyHistory() {}
-    void getMonthlyHistory() {}
 }
