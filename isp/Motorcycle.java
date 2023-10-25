@@ -8,7 +8,4 @@ class Motorcycle implements VehicleInterface {
     public void stop() {}
     @Override
     public void refuel() {}
-    // Can not be implemented
-    @Override
-    public void openDoors() {}
 }
