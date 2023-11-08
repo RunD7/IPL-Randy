@@ -1,5 +1,9 @@
 package cleancode;
 
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+
 public class FitNesseExpediter implements ResponseSender {
     private Socket socket;
     private InputStream input;
@@ -11,5 +15,4 @@ public class FitNesseExpediter implements ResponseSender {
     private long requestProgress;
     private long requestParsingDeadline;
     private boolean hasError;
-    ...
 }
